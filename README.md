@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Adopt a Pet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Features](#features)
 
-In the project directory, you can run:
+## Overview
+This is a fake pet adoption website which was created using React.js. The aim of the project was to practice React Router. The application allows the user to browse different animals such as dogs, cats, rabits and birds that are available for adoption. The user can then view more details about a specific animal by clicking on it.
 
-### `yarn start`
+![home](https://user-images.githubusercontent.com/43879432/187760514-fe87dc58-8692-49dd-86ec-569e927b44f6.jpg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
++ HTML
++ CSS
++ JSX
++ React.js
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
+1. The home page displays all of the animals that are available for adoption. The user can browse through the list of all animals, or can navigate to one of the more specific pages (dogs, cats, rabbits or birds).
 
-### `yarn test`
+![home](https://user-images.githubusercontent.com/43879432/187760514-fe87dc58-8692-49dd-86ec-569e927b44f6.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![birds](https://user-images.githubusercontent.com/43879432/187761079-69c074d2-2b97-4731-9b41-9d55dd6c6cbb.jpg)
 
-### `yarn build`
+2. The animal details can be viewed by clicking on the specific animal.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![cornelius](https://user-images.githubusercontent.com/43879432/187761353-33d8b1f1-60cb-450d-8a07-e955c42774a5.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. If the animal that the user selects does not have any information on them, an error page will be rendered.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![error](https://user-images.githubusercontent.com/43879432/187761637-2760a6df-7650-44e8-9c70-1e33de2f9b7b.jpg)
 
-### `yarn eject`
+4. The user can also search for an animal by name.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Buddy](https://user-images.githubusercontent.com/43879432/187762064-8fb5404d-e310-4d19-a206-c5eff10742ed.jpg)
